@@ -1,0 +1,389 @@
+{
+  "LocalizedStrings": [
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "DefaultUserMessageIfRequestFailed",
+      "Override": false,
+      "Value": "Ձեր հարցումը մշակելիս խնդիր առաջացավ։ Խնդրում եմ կրկին փորձեք։"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "ServiceThrottled",
+      "Override": false,
+      "Value": "Այս պահին սերվերը գերծանրաբեռնված է։ Խնդրում ենք սպասել որոշ ժամանակ և նորից փորձել։"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageForInvalidClaimValue",
+      "Override": false,
+      "Value": "Տրված արժեքը սխալ է կամ անվավեր"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfChallengeExpired",
+      "Override": false,
+      "Value": "Այդ կոդը ժամկետանց է։ Խնդրում ենք նոր կոդ գեներացնել:"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfCircuitOpen",
+      "Override": false,
+      "Value": "Ձեր հարցումը մշակելիս խնդիր առաջացավ։ Խնդրում եմ կրկին փորձեք։"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfClaimNotVerified",
+      "Override": false,
+      "Value": "Բնութագիրը ստուգված չէ՝ {0}"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfClaimsPrincipalAlreadyExists",
+      "Override": false,
+      "Value": "Դուք արդեն գրանցված եք, սեղմեք հետադարձ կոճակը և փոխարենը մուտք գործեք։"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfClaimsTransformationBooleanValueIsNotEqual",
+      "Override": false,
+      "Value": "Ձեր ընթացիկ և նոր գաղտնաբառը չեն կարող նույնը լինել։ Խնդրում ենք մուտքագրել այլ գաղտնաբառ։"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfDnsResolutionFailed",
+      "Override": false,
+      "Value": "Ձեր հարցումը մշակելիս խնդիր առաջացավ։ Խնդրում եմ կրկին փորձեք։"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfIncorrectPattern",
+      "Override": false,
+      "Value": "Սխալ նմուշ՝ {0}-ի համար"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfInternalError",
+      "Override": false,
+      "Value": "Մենք դժվարանում ենք հաստատել ձեր էլ-փոստի հասցեն։ Խնդրում եմ փորձեք մի փոքր ուշ։"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfInvalidInput",
+      "Override": false,
+      "Value": "Սխալ մուտքագրված տվյալներ՝ {0}։"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfMissingRequiredElement",
+      "Override": false,
+      "Value": "Պարտադիր տարրը բացակայում է՝ {0}"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfRequestTimeout",
+      "Override": false,
+      "Value": "Ձեր հարցումը մշակելիս խնդիր առաջացավ։ Խնդրում եմ կրկին փորձեք։"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfThrottled",
+      "Override": false,
+      "Value": "Այս էլ-փոստի հասցեն ստուգելու համար չափազանց շատ հարցումներ են եղել։ Խնդրում ենք մի քիչ սպասել, ապա նորից փորձել:"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfValidationError",
+      "Override": false,
+      "Value": "Սխալ կամ անվավեր մուտքագրում՝ {0}"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfVerificationFailedNoRetry",
+      "Override": false,
+      "Value": "Դուք չափազանց շատ սխալ փորձեր եք կատարել։ Խնդրում ենք փորձել մի փոքր ուշ։"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfVerificationFailedRetryAllowed",
+      "Override": false,
+      "Value": "Այդ կոդը սխալ է։ Խնդրում եմ կրկին փորձեք։"
+    },
+    {
+      "ElementType": "GetLocalizedStringsTransformationClaimType",
+      "ElementId": null,
+      "StringId": "forcedPasswordResetMessage",
+      "Override": false,
+      "Value": "Ձեր հաշվի հետ կապված վերջին գործողությունների պատճառով դուք պետք է փոխեք ձեր գաղտնաբառը։ Խնդրում ենք մուտքագրել ձեր ընթացիկ և նոր գաղտնաբառը։"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "alert_message",
+      "Override": true,
+      "Value": "Վստա՞հ եք, որ ցանկանում եք չեղարկել տվյալների մուտքագրումը։"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "alert_no",
+      "Override": true,
+      "Value": "Ոչ"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "alert_title",
+      "Override": true,
+      "Value": "Չեղարկել Տվյալների Մուտքագրումը"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "alert_yes",
+      "Override": true,
+      "Value": "Այո"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "button_cancel",
+      "Override": true,
+      "Value": "Չեղարկել"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "button_continue",
+      "Override": true,
+      "Value": "Շարունակել"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "cancel_message",
+      "Override": true,
+      "Value": "Օգտագործողը չեղարկել է սեփական տվյալների մուտքագրումը"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "day",
+      "Override": true,
+      "Value": "Օր"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "error_fieldIncorrect",
+      "Override": true,
+      "Value": "Մեկ կամ մի քանի դաշտեր սխալ են լրացված։ Խնդրում ենք ստուգել ձեր գրառումները և նորից փորձել։"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "error_passwordEntryMismatch",
+      "Override": true,
+      "Value": "Գաղտնաբառի մուտքագրման դաշտերը չեն համընկնում։ Խնդրում ենք մուտքագրել նույն գաղտնաբառը երկու դաշտերում և կրկին փորձել։"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "error_requiredFieldMissing",
+      "Override": true,
+      "Value": "Պահանջվող դաշտը բացակայում է։ Խնդրում ենք լրացնել բոլոր պարտադիր դաշտերը և նորից փորձել։"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "helplink_text",
+      "Override": true,
+      "Value": "Ի՞նչ է սա"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "initial_intro",
+      "Override": true,
+      "Value": "Խնդրում ենք տրամադրել հետևյալ մանրամասները։"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "month",
+      "Override": true,
+      "Value": "Ամիս"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "months",
+      "Override": true,
+      "Value": "Հունվար, Փետրվար, Մարտ, Ապրիլ, Մայիս, Հունիս, Հուլիս, Օգոստոս, Սեպտեմբեր, Հոկտեմբեր, Նոյեմբեր, Դեկտեմբեր"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "preloader_alt",
+      "Override": true,
+      "Value": "Խնդրում ենք սպասել"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "required_field",
+      "Override": true,
+      "Value": "Այս տեղեկատվությունը պարտադիր է։"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_but_default",
+      "Override": true,
+      "Value": "Լռելյայն"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_but_edit",
+      "Override": true,
+      "Value": "Փոխել էլ-փոստը"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_but_resend",
+      "Override": true,
+      "Value": "Ուղարկեք նոր կոդ"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_but_send",
+      "Override": true,
+      "Value": "Ուղարկեք ստուգման կոդը"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_but_verify",
+      "Override": true,
+      "Value": "Ստուգել կոդը"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_fail_code_expired",
+      "Override": true,
+      "Value": "Այդ կոդը ժամկետանց է։ Խնդրում ենք նոր կոդ պահանջել։"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_fail_no_retry",
+      "Override": true,
+      "Value": "Դուք չափազանց շատ սխալ փորձեր եք կատարել։ Խնդրում ենք փորձեք մի փոքր ուշ։"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_fail_retry",
+      "Override": true,
+      "Value": "Այդ կոդը սխալ է։ Խնդրում ենք կրկին փորձեք։"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_fail_server",
+      "Override": true,
+      "Value": "Մենք դժվարանում ենք հաստատել ձեր էլ-փոստի հասցեն։ Խնդրում ենք մուտքագրել վավեր էլփոստի հասցե և նորից փորձել։"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_fail_throttled",
+      "Override": true,
+      "Value": "Այս էլփոստի հասցեն ստուգելու համար չափազանց շատ հարցումներ են եղել։ Խնդրում ենք մի քիչ սպասել, ապա նորից փորձել։"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_incorrect_format",
+      "Override": true,
+      "Value": "Սխալ ձևաչափ։"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_info_msg",
+      "Override": true,
+      "Value": "Ստուգման կոդը ուղարկվել է ձեր էլ-փոստին։ Խնդրում ենք պատճենել այն ստորև բերված մուտքագրման դաշտում։"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_input",
+      "Override": true,
+      "Value": "Ստուգման կոդը"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_intro_msg",
+      "Override": true,
+      "Value": "Անհրաժեշտ է անցնել ստուգում։ Խնդրում ենք սեղմել Ուղարկել կոճակը։"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_sent",
+      "Override": true,
+      "Value": "Ստուգման կոդը ուղարկվել է: "
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_success_msg",
+      "Override": true,
+      "Value": "Էլ-փոստի հասցեն հաստատված է։ Այժմ կարող եք շարունակել։"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_success_screenreader_msg",
+      "Override": true,
+      "Value": "Էլ-փոստի հասցեն հաստատված է։ Այժմ կարող եք շարունակել։"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "verifying_blurb",
+      "Override": true,
+      "Value": "Խնդրում ենք սպասել, մինչ մենք կմշակենք ձեր տվյալները։"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "year",
+      "Override": true,
+      "Value": "Տարի"
+    }
+  ]
+}
